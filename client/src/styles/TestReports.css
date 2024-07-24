@@ -1,0 +1,19 @@
+.unauthorized-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.test-reports {
+    padding: 0px 20px;
+}
+
+.test-reports .title {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.test-reports .para {
+    padding: 10px 7px;
+}

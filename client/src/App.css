@@ -1,0 +1,78 @@
+/*Home*/
+#home {
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0, 101, 219)50%, rgb(0, 212, 255, 1)100%);
+    min-height: 500px;
+}
+
+/*Cards*/
+.card {
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0.5rem 1rem rgb(0, 0, 0, .15);
+}
+
+.card2:hover {
+    cursor: default;
+}
+/*form*/
+.form {
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0, 101, 219)40%, rgb(0, 212, 255, 1)100%);
+}
+
+/* CSS Code */
+.black-link {
+    color: black;
+    /* Sets the link color to black */
+    text-decoration: none;
+    /* Removes the underline */
+}
+
+/* Optionally, you can style the link when hovered */
+.black-link:hover {
+    text-decoration: underline;
+    /* Add underline on hover if desired */
+}
+
+/*Footer*/
+.footer {
+    background: rgb(0, 101, 219);
+    background: linear-gradient(90deg, rgb(0, 101, 219)40%, rgb(0, 212, 255, 1)100%);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+.gradient-custom {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa;
+}
+
+
+.input-custom {
+    background-color: white;
+}
+
+.white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black;
+    margin-top: 50px;
+}
